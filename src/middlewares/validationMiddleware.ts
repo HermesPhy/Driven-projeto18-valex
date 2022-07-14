@@ -1,7 +1,8 @@
 import { Request, Response, NextFunction } from "express";
 import dayjs from "dayjs";
 
-import { Card } from "../repositories/cardRepository";
+import { Card, findById } from "../repositories/cardRepository";
+
 
 export async function cardValidationByDate(card: Card) {
     const currentDate = dayjs().format("MM/YY");
