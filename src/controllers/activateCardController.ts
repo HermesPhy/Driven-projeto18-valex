@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import activateCardService from "../services/activateCardService";
+import activateCardService from "./../services/activateCardService.js";
 
 export default async function activateCard(req: Request, res: Response) {
     const { cvc, password, card } = res.locals;
