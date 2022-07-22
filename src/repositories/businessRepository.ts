@@ -1,4 +1,4 @@
-import { db } from "./../database.js";
+import db from "./../database.js";
 import { TransactionTypes } from "./cardRepository.js";
 
 export interface Business {

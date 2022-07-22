@@ -1,4 +1,4 @@
-import { db } from "./../database.js";
+import db from "./../database.js";
 import { mapObjectToUpdateQuery } from "./../utils/dbUtils.js";
 
 export type TransactionTypes =
